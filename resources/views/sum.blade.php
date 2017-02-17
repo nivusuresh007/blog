@@ -2,7 +2,8 @@
 <head>
 </head>
 <body>
-<label>Sum is : {{$result}}
+<label>product is : {{$product}}
+<label>sum is :{{$result}}
 </label>
 </body>
 </html>

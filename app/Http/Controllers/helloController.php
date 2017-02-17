@@ -13,6 +13,7 @@ public function index(){
 
 public function add(Request $request){
     $sum=$request->num1+$request->num2;
-    return view('sum',['result'=>$sum]);
+    $pdct=$request->num1*$request->num2;
+    return view('sum',['result'=>$sum,'product'=>$pdct]);
 }
 }
